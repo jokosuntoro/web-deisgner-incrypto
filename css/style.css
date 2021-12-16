@@ -92,7 +92,7 @@ p.konten {
     font-size: 18px; 
 }
 
-.box-shadow {
+.box-klien {
     height: 100px;
     background: rgba(255, 255, 255, 0.24);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -149,4 +149,26 @@ p.konten {
     font-weight: 700;
     font-size: 18px;
     margin-top: 40px;
+}
+
+.box-statistik {
+    height: 120px;
+    background: rgba(255, 255, 255, 0.24);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    backdrop-filter: blur(2.3px);
+    -webkit-backdrop-filter: blur(2.3px);
+    border: 0px solid rgba(255, 255, 255, 0.09);
+    padding-top: 24px;
+}
+
+.statistik-text h4 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.statistik-text p {
+    font-weight: 300;
+    font-size: 18px;
 }
