@@ -1,0 +1,152 @@
+body {
+    font-family: 'Inter';
+    background: #161616;
+    color: white;
+}
+
+.navbar {
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.nav-item {
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 24px;
+}
+
+.btn-white {
+    border-color: white;
+    color: white;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+
+.btn-blue {
+    background-color: #0E21E8;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    margin-top: 64px;
+}
+
+.hero {
+    margin-top: 40px;
+    margin-bottom: 75px;
+    line-height: 150%;
+}
+
+.hero span {
+    color: #1AE854;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 16px;
+    letter-spacing: 3px;
+}
+
+.hero h1 {
+    margin-top: 16px;
+    letter-spacing: 3px;
+}
+
+.hero p {
+    margin-top: 32px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.kotak {
+    width: auto;
+    height: 100px;
+    background-color: #ffffff;
+    opacity: 0.01;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+
+
+.sub-judul {
+    color: #1AE854;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 16px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h3 {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+p.konten {
+    margin-top: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-size: 18px; 
+}
+
+.box-shadow {
+    height: 100px;
+    background: rgba(255, 255, 255, 0.24);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    backdrop-filter: blur(2.3px);
+    -webkit-backdrop-filter: blur(2.3px);
+    border: 0px solid rgba(255, 255, 255, 0.09);
+}
+
+.klien, .fitur, .statistik {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height: 150%;;
+}
+
+.klien span, .fitur span, .statistik span {
+    color: #1AE854;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 3px;
+    position: center;
+    margin-bottom: 16px;
+}
+
+.klien h3, .fitur h3, .statistik h3 {
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+}
+
+.klien p, .fitur p, .statistik p {
+    font-weight: 100;
+    font-size: 18;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.fitur-box {
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.3px);
+    -webkit-backdrop-filter: blur(2.3px);
+    border: 0px solid rgba(255, 255, 255, 0.09);
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: -35px;
+}
+
+.fitur-box h5 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 40px;
+}
